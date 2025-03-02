@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+p{
+    background-color: grey;
+}
+#a1{
+    text-align:center;
+}
+.c1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,p{
+    width:100%;
+}
