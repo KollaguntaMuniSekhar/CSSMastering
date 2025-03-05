@@ -1,0 +1,28 @@
+div{
+    border:1px solid black;/*by default it is static we cannot appply anything*/
+}
+img{
+    margin:10px;
+}
+.Image2{
+    /* position:relative top,bottom left right space is maintained */
+    position:absolute;/* No gap is maintained for absolut/eor/ preserved gap is removed*/
+    top:200px;
+}
+.container{
+    /* for using absolute applyes on closest ancenster like div tag in this program*/
+    position: relative;
+    height:800px;
+}
+.Image4{
+    position:fixed;/*The image is fixe when you scroll also*//*Entire website it is fixed*/
+
+}
+.Image3{
+    position:sticky;/*Only whith in the parent class not on entire website*/
+    top:100px;
+}
+.box{
+    background-color:blue;
+    height:600px;
+}
