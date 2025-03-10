@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:brown; /*when you use in this box it will excute with in box only by using :root  we can apply on code*/
+            --custom-width:800px;
+        }
+        .container{
+            background-color: blue;
+            border:2px solid black;
+            height:650px;
+            width:var(--custom-width);
+            display:flex;
+            justifY-content:center;
+            align-items: center;
+        }
+       .box{    /* variable is a empty entity  we can insert value 
+        we can change all at time*/
+        
+            background-color: aquamarine;
+            height:300px;
+            width:var(--custom-width);
+            border:1px solid var(--primary-color);
+            margin:5px;
+            padding:5px;
+            overflow:auto;
+        }
+        #head1{
+            /* text-shadow: 1px 3px 1px white;
+         */
+         text-shadow:12px 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 id="head1"> Heading 1</h1>
+
+        </div>
+    </div>
+</body>
+</html>

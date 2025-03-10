@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <style>
+        .container{
+            background-color: blue;
+            border:2px solid black;
+            height:650px;
+            display:flex;
+            justifY-content:center;
+            align-items: center;
+            
+
+        }
+        .box{
+            background-color: aquamarine;
+            height:300px;
+             width:300PX;
+            border:1px solid rgb(6, 0, 0);
+            margin:5px;
+            padding:5px;
+            overflow:auto;
+           
+            /* box-shadow: -10px -15px brown; *//*X-axis means left or right y-axis means top or down*/
+            /* box-shadow: 10px 20px 100px black; for here 100 px is blur radius use only positive */
+            /* box-shadow: 10px 15px 15px 50px;here 50 is spread radius */
+            /*to make shadow inside the content by using inset*/
+            /* box-shadow:inset 10px 15px white; */
+            box-shadow:20px 25px orange,30px 35px white,40px 45px green;/*for multiple shawdow*/
+
+        }
+       
+    </style>
+</head>
+<body>
+     <!-- for positive side   shawdoing + right side come
+     negitive  side shawdoing - left side comes -->
+     <div class="container">
+        <div class="box">
+                  <img src="Day5/IMG1.jpeg" height="100px">
+            <h2> Welcome to shadows</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est aliquid consequuntur hic adipisci maxime qui suscipit minima, ratione ad cumque mollitia amet totam, deleniti sint earum nihil dolores enim ab.
+                      Recusandae,</p>
+    </div>
+</body>
+</html>
