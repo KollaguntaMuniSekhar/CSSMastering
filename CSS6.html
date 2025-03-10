@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Size Units</title>
+    <style>
+         *{
+            margin:0px;
+            padding:0px;
+        } 
+        .parent{
+            border: 1px soid black;
+            background-color: aliceblue;
+            width:50%;
+        }
+        .child{
+            border:1px solid green;
+            background-color: aqua;
+            width:20%;
+        } 
+          .container{
+            border:1px solid green;
+            background-color: beige;
+            height:50vh;/* view port width*/
+            width:50vw;
+         } 
+          .box1{
+            border:1px solid black;
+            font-size: 100px;
+
+          }
+          .container1{
+            font-size: 10px;
+          }
+          .box{
+            font-size:10em ;/* 10 em multiply by 10px then 100 we can watch on  inspect 100;*/
+          }
+          .para1{
+            border: 1px solid black;
+            font-size: 5rem;/*depend on root element*/
+          }
+        
+    </style>
+</head>
+<body>
+     <div class="container">
+        Welcome To Web Development in "VW Vh" units
+    </div> 
+     
+     <div class="parent">
+        <div class="child">CHIld in %units</div>
+    </div> 
+     <div class="container1">
+        Welcome in Px units
+    </div> 
+     <div class="box1">
+        Top of the Noon to you in Em units
+    </div> 
+    <p class="para1">
+        Hello Jee In REM units
+    </p>
+    
+</body>
+</html>

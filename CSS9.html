@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+</head>
+<style>
+    .box{
+        background-color: blue;
+        border:3px solid black;
+        width:100px;
+        height:100px;
+        display:flex;
+    }
+    @media (min-width:200px) and  (max-width:500px){/*above of 499 it change the background color is known as min*/
+        /*500 kana thagitha then the media query is excuted is kknown as max*/
+        /*with in that range by using and */
+        .box{
+        background-color: orange;
+        flex-direction:column;
+
+    }
+    }
+</style>
+<body>
+    <div class="box">
+      Hello
+    </div>
+    <div class="box">
+        Hello
+      </div>
+      <div class="box">
+        Hello
+      </div>
+      <div class="box">
+        Hello
+      </div>
+
+    
+</body>
+</html>

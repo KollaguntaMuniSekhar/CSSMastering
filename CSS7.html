@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Float  clear overflow</title>
+    <style>
+        #image1{
+            float :right;
+            width:250px;
+            margin-right:20px;
+            
+            
+
+        }
+        #image2{
+            float:right;
+            width:250px;/*clearing  behind the picture*/
+            clear:right;
+            margin-left:20px;
+        }
+        .box{
+            border:1px solid black;
+            overflow: auto;
+        }
+        .item{
+            width:200px;
+            height:200px;
+            margin:2px;
+            background:orange;
+            border:1px solid black;
+            float: left;/*The great collapse*/
+            display: flex;;
+        }
+        .container1{
+            /* width:800px; */
+            height:200px;
+            border: 2px solid black;
+            overflow: auto;
+        }
+        #item3{
+            float:right;
+            
+        }
+        #item2{
+            float:right;
+           
+            
+            
+        }
+        #item1{
+            float:right;
+          
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img  id="image1"src="/Day5/img4.jpeg" alt="nature">
+        <img  id="image2"src="/Day5/img3.jpeg" alt="nature">
+       
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo dolore molestias officiis alias et saepe modi quod quas nisi totam tenetur nesciunt, laudantium ex odio doloribus, velit temporibus commodi!
+        Sint architecto dolor itaque distinctio, doloribus eligendi iure, nihil, est assumenda quis et vero reprehenderit laborum. Repellendus, eum sed nobis eligendi quod deleniti quaerat obcaecati earum inventore officiis voluptates nulla.
+        Culpa, dicta hic quis veniam ratione mollitia molestias quaerat ducimus laudantium, nostrum facere iste illum, nam nemo. Perferendis perspiciatis, iusto adipisci at aut, architecto sed voluptates explicabo magni est consequatur.
+        Eius sequi optio adipisci non nam eos doloribus quas accusamus! Ducimus inventore sint fugiat aut quo praesentium quod soluta possimus voluptates veniam, autem dolore sapiente, doloribus corporis, animi quas reiciendis!
+        Officia praesentium neque molestiae minima ut nobis modi odio impedit saepe autem tempora sint dolores obcaecati nisi vel inventore, blanditiis tempore doloribus? Consequuntur totam placeat eveniet iusto, debitis voluptates. Necessitatibus?
+        Ipsa maiores esse numquam voluptates expedita voluptatem suscipit accusantium rem, optio quae sunt qui inventore laudantium aliquid, vitae est eligendi praesentium cumque quas et consequatur. Hic recusandae itaque ab illo.
+        Quas commodi magni asperiores voluptatem delectus, eius reprehenderit, repudiandae placeat quaerat mollitia, quod culpa adipisci dolor nemo excepturi. Esse vero aperiam quam autem odit dicta iste veniam nemo libero dolorem.
+        Quam debitis maiores fugit consequatur possimus quis error vero? Quod rerum autem neque laudantium cupiditate repellendus ipsa non ad nihil illo. Nam ipsam dicta fugit aut obcaecati beatae illo reiciendis.</p>
+
+    </div>
+    <div class="container1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolores quam nobis neque suscipit excepturi consectetur voluptatum? Ipsam, praesentium labore ab illo porro accusamus molestias, deleniti veniam impedit modi reprehenderit?
+        Suscipit blanditiis itaque numquam eum mollitia, rerum expedita voluptate quaerat eius natus. Tempora et saepe quas nihil culpa recusandae ex ea impedit incidunt sed unde nulla debitis, maiores commodi quaerat?
+        Quam culpa ea incidunt fugit optio, autem accusamus velit aut, enim quae animi dolores recusandae deleniti iste commodi dolorem minus, id officia odio ratione eum necessitatibus natus quia. Praesentium, consectetur!
+        At eum ea ad commodi unde dolorem, voluptatum enim eius similique eveniet repudiandae consequuntur beatae. Repudiandae delectus molestias autem quis mollitia iusto aliquam hic. Quam aperiam odit sunt neque vitae!
+        Aperiam placeat iste totam quas. Consequatur adipisci et ex libero dolores modi voluptatem eligendi provident totam, unde earum dolor delectus aut nisi incidunt fugit nostrum labore culpa perferendis. Praesentium, qui!
+        Ea quas earum amet nostrum distinctio debitis alias totam id repudiandae molestias laudantium magni, quia dicta soluta. Pariatur atque commodi, sapiente excepturi laborum dolorem alias illum nobis omnis, cupiditate unde.
+        Itaque, dolor fuga iste similique voluptatem dignissimos dolores unde necessitatibus quia sit veniam fugiat repudiandae animi rerum, obcaecati ea quisquam explicabo alias? Sequi, placeat. Error sed consequatur fugiat debitis sint.
+        Minima voluptates voluptatum explicabo, laudantium placeat officiis recusandae tempore reprehenderit quas, provident impedit ad dolorem nam quo, quasi nihil nemo omnis quidem vero error deleniti repellendus? Animi incidunt impedit quia!
+    </div>
+        <div class="box">
+            <div class="item" id="item1">A</div>
+            <div class="item" id="item2">B</div>
+            <div class="item" id="item3">C</div>
+        </div>
+    
+</body>
+</html>
