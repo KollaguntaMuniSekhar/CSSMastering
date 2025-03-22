@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            width:100%;
+            height:100%;
+        }
+        .container{
+            background-color: brown;
+            padding:5rem;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:1rem;
+            
+
+        }
+        .item{
+            height:250px;
+            width:250px;
+            background-color: blueviolet;
+            border: 2px solid black;
+        }
+        #RotateX:hover{
+            transform: rotateX(45deg);/*for Zpersepctive(300px)for scale and transfrom no need for roattae*/
+          /*skew degere  also one type x y z */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="RotateX">RotateX</div>
+        <div class="item" id="Rotatey">Rotatey</div>
+        <div class="item" id="roatatez">RotateZ</div>
+        <div class="item">TranslateX</div>
+        <div class="item">TY</div>
+        <div class="item">TZ</div>
+        <div class="item">ScaleX</div>
+        <div class="item">SY</div>
+        <div class="item">SZ</div>
+    </div>
+
+    
+</body>
+</html>
