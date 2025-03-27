@@ -39,7 +39,7 @@ a{
     grid-template-columns: repeat(1,1fr);
 }
   @media (min-width:935px){
-    .main_container{
+    .main_container{/* pina untey min width lo unda code excute avthadi*/
         grid-template-columns: repeat(2,1fr);
     }
   }
